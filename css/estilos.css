@@ -1,0 +1,48 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0;}
+
+    div, header, section, aside, article, main, footer, nav { display: block;
+                                                            box-sizing: border-box;}
+
+                                                            
+.logo img { width: 120px;
+            height: auto; }
+
+h2 { font-size: 3em; 
+    text-align: center;
+    font-family: 'Abel', sans-serif;}
+
+h3 { font-size: 1.5em; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;}
+
+h4 { font-size: 1em; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;}
+
+.circulo { text-align: center; }
+
+.contenedor { display:flex;
+    flex-direction:row ;
+    width: 400%;
+    margin-bottom: 5px;
+    background-color: #f6ebdd;
+    padding: 15px;}
+
+.item { width: 750px;
+    height: 350px;
+    margin: 40px 5%;
+    border-radius: 900px;
+    text-align: center;}
+
+.img1 {background-image: url(../img/adoptar\ gatitos.jpeg);}
+
+
+.end { display:flex;
+    flex-direction:row ;
+    margin: 90px;
+    background-color: #f6ebdd;
+    padding: 2px;}
+
